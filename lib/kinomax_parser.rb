@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'httpclient'
+require 'kinomax_parser/announce'
 require 'kinomax_parser/movie'
 require "kinomax_parser/version"
 
@@ -14,7 +15,7 @@ module KinomaxParser
   def self.parse(url)
     p = fetch url
     raise(Empty) if p.http_body.content.size.zero?
-    p.status == 200 ? Nokogiri::HTML(p.body.encode('utf-8')) : raise(NotFound)
+    p.status == 200 ? Nokogiri::XML(p.body.encode('utf-8')) : raise(NotFound)
   end
 end
 
