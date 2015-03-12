@@ -5,13 +5,13 @@ require 'kinomax_parser/movie'
 require "kinomax_parser/version"
 
 module KinomaxParser
+  NotFound = Class.new StandardError
+  Empty = Class.new StandardError
 
-  # Headers are needed to mimic proper request so kinomax
   def self.fetch(url)
     HTTPClient.new.get url, nil, { 'User-Agent'=>'a', 'Accept-Encoding'=>'a' }
   end
 
-  # Returns a nokogiri document or an error if fetch response status is not 200
   def self.parse(url)
     p = fetch url
     raise(Empty) if p.http_body.content.size.zero?
