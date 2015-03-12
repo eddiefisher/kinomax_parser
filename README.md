@@ -1,8 +1,6 @@
 # KinomaxParser
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/kinomax_parser`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+[![Build Status](https://travis-ci.org/eddiefisher/kinomax_parser.svg)](https://travis-ci.org/eddiefisher/kinomax_parser)
 
 ## Installation
 
@@ -22,7 +20,39 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+# default
+KinomaxParser::Announce.new
+# with params
+announce = KinomaxParser::Announce.new cinema: :solaris, date: '2015-03-13'
+
+#methods for Announce
+
+announce.result
+announce.url
+announce.movies
+announce.cinema
+announce.city
+announce.time_zone
+announce.schedule_date
+
+#methods for Movie
+
+movie = announce.movies.first
+
+movie.id
+movie.title
+movie.length
+movie.description
+movie.genres
+movie.rating
+movie.rating_count
+movie.poster
+movie.trailer
+movie.director
+movie.cast
+movie.schedules
+```
 
 ## Development
 
