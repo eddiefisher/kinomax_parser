@@ -4,31 +4,240 @@
   <message/>
   <cinema id="4" token="vladimir">Киномакс-Буревестник Владимир</cinema>
   <city id="3">Владимир</city>
-  <cityDatetime timezone="Europe/Moscow">2015-01-27 01:11:23</cityDatetime>
-  <scheduleForDate>2015-01-27</scheduleForDate>
+  <cityDatetime timezone="Europe/Moscow">2015-03-12 16:48:00</cityDatetime>
+  <scheduleForDate>2015-03-12</scheduleForDate>
   <movies>
-    <movie id="2379">
-      <name>Тупой и еще тупее 2</name>
-      <length>108</length>
-      <description><![CDATA[Гарри Данн и Ллойд Кристмас отправляются в путешествие, чтобы разыскать ребенка Гарри, о существовании которого он не подозревал.]]></description>
-      <genres>Комедия</genres>
-      <rating votes="90">3.86</rating>
-      <frameUrl>http://kinomax.ru/data/films/2014/km2-2379.jpg</frameUrl>
-      <trailer>http://www.youtube.com/watch?v=zGeEFklw108</trailer>
-      <director>Питер Фаррелли, Бобби Фаррелли</director>
-      <cast>Джим Керри, Джефф Дэниелс, Роб Риггл, Лори Холден, Рэйчел Мелвин</cast>
+    <movie id="2409">
+      <name>Золушка</name>
+      <length>105</length>
+      <description><![CDATA[Отец молодой девушки по имени Элла, овдовев, женится во второй раз, и вскоре Элла оказывается один на один с жадными и завистливыми новыми родственницами – мачехой Леди Тремэйн и ее дочерьми - Анастасией и Дризеллой. Из хозяйки дома она превращается в служанку, вечно испачканную золой, за что и получает от своих сварливых сводных сестриц прозвище – Золушка. Несмотря на злоключения, выпавшие на ее долю, Золушка не отчаивается, ведь даже в самые тяжелые моменты находится что-то, что помогает ей думать о хорошем: например, случайная встреча на лесной тропинке с прекрасным юношей. Элла даже не предполагает, что встретилась с самим принцем, и что вскоре Фея-крестная навсегда поменяет её жизнь к лучшему.]]></description>
+      <genres>Фэнтези, Драма, Мелодрама, Приключения, Семейный</genres>
+      <rating votes="195">4.34</rating>
+      <frameUrl>http://kinomax.ru/data/films/2015/km2-2409.jpg</frameUrl>
+      <trailer>http://www.youtube.com/watch?v=nynI4BoCdeA</trailer>
+      <director>Кеннет Брана</director>
+      <cast>Лили Джеймс, Кейт Бланшетт, Ричард Мэдден, Хейли Этвелл, Хелена Бонем Картер</cast>
       <schedule>
-        <session id="815911" time="10:20" passed="false">
+        <session id="875757" time="10:00" passed="true">
           <type id="2d">2D</type>
-          <plan>http://kinomax.ru/order/hallplan?session=815911</plan>
-          <hall><![CDATA[САТУРН]]></hall>
-          <priceRange>от 130р.</priceRange>
-        </session>
-        <session id="815919" time="13:20" passed="false">
-          <type id="2d">2D</type>
-          <plan>http://kinomax.ru/order/hallplan?session=815919</plan>
+          <plan>http://kinomax.ru/order/hallplan?session=875757</plan>
           <hall><![CDATA[Зал 1]]></hall>
-          <priceRange>от 130р.</priceRange>
+          <priceRange>от 108р.</priceRange>
+        </session>
+        <session id="875770" time="11:10" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=875770</plan>
+          <hall><![CDATA[Зал 4]]></hall>
+          <priceRange>от 108р.</priceRange>
+        </session>
+        <session id="882473" time="12:45" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882473</plan>
+          <hall><![CDATA[Зал 3]]></hall>
+          <priceRange>от 108р.</priceRange>
+        </session>
+        <session id="882462" time="14:40" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882462</plan>
+          <hall><![CDATA[Зал 1]]></hall>
+          <priceRange>от 180р.</priceRange>
+        </session>
+        <session id="882478" time="15:50" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882478</plan>
+          <hall><![CDATA[Зал 4]]></hall>
+          <priceRange>от 180р.</priceRange>
+        </session>
+        <session id="875773" time="18:10" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=875773</plan>
+          <hall><![CDATA[Зал 4]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+        <session id="875774" time="20:30" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=875774</plan>
+          <hall><![CDATA[Зал 4]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+        <session id="882465" time="21:50" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882465</plan>
+          <hall><![CDATA[Зал 1]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+      </schedule>
+    </movie>
+    <movie id="2413">
+      <name>Духless 2</name>
+      <length>105</length>
+      <description><![CDATA[Макс Андреев пытается начать жизнь с чистого листа, проживая жизнь на острове в Юго-восточной Азии. Но обстоятельства возвращают его на родину и вынуждают сделать нелегкий выбор.]]></description>
+      <genres>Драма</genres>
+      <rating votes="209">3.98</rating>
+      <frameUrl>http://kinomax.ru/data/films/2015/km2-2413.jpg</frameUrl>
+      <trailer>http://www.youtube.com/watch?v=zKYg3q0lDy0</trailer>
+      <director>Роман Прыгунов</director>
+      <cast>Данила Козловский, Мария Андреева, Милош Бикович, Павел Ворожцов, Сергей Бурунов</cast>
+      <schedule>
+        <session id="875763" time="10:10" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=875763</plan>
+          <hall><![CDATA[Зал 2]]></hall>
+          <priceRange>от 108р.</priceRange>
+        </session>
+        <session id="882477" time="13:30" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882477</plan>
+          <hall><![CDATA[Зал 4]]></hall>
+          <priceRange>от 108р.</priceRange>
+        </session>
+        <session id="875753" time="15:00" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=875753</plan>
+          <hall><![CDATA[Зал 3]]></hall>
+          <priceRange>от 180р.</priceRange>
+        </session>
+        <session id="882463" time="17:00" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882463</plan>
+          <hall><![CDATA[Зал 1]]></hall>
+          <priceRange>от 180р.</priceRange>
+        </session>
+        <session id="882469" time="19:40" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882469</plan>
+          <hall><![CDATA[Зал 2]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+        <session id="882476" time="22:30" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882476</plan>
+          <hall><![CDATA[Зал 3]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+        <session id="882466" time="00:10" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882466</plan>
+          <hall><![CDATA[Зал 1]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+      </schedule>
+    </movie>
+    <movie id="2410">
+      <name>Робот по имени Чаппи</name>
+      <length>120</length>
+      <description><![CDATA[Чаппи - вундеркинд. Как и любой другой ребенок, он попадает под влияние своего окружения, и только его сердце и душа помогут ему найти свой путь. Но есть одна вещь, которая делает Чаппи непохожим на всех остальных: он – первый робот, способный чувствовать и думать.]]></description>
+      <genres>Боевик, Триллер</genres>
+      <rating votes="221">4.38</rating>
+      <frameUrl>http://kinomax.ru/data/films/2015/km2-2410.jpg</frameUrl>
+      <trailer>http://www.youtube.com/watch?v=POUE7HghGLs</trailer>
+      <director>Нил Бломкамп</director>
+      <cast>Хью Джекман, Сигурни Уивер, Шарлто Копли, Дев Патель, Миранда Фригон</cast>
+      <schedule>
+        <session id="882472" time="10:20" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882472</plan>
+          <hall><![CDATA[Зал 3]]></hall>
+          <priceRange>от 108р.</priceRange>
+        </session>
+        <session id="882474" time="17:20" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882474</plan>
+          <hall><![CDATA[Зал 3]]></hall>
+          <priceRange>от 180р.</priceRange>
+        </session>
+        <session id="882475" time="20:00" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882475</plan>
+          <hall><![CDATA[Зал 3]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+        <session id="875775" time="23:00" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=875775</plan>
+          <hall><![CDATA[Зал 4]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+      </schedule>
+    </movie>
+    <movie id="2418">
+      <name>Проклятие: Начало конца</name>
+      <length>91</length>
+      <description><![CDATA[Это проклятие тех, кто умер, испытывая сильную злобу. Проклятие аккумулируется в том месте, где жил покойный, и формирует «карму». Каждый, кто соприкоснулся с проклятием, умирает, тем самым пополняя «карму».]]></description>
+      <genres>Ужасы</genres>
+      <rating votes="12">4.17</rating>
+      <frameUrl>http://kinomax.ru/data/films/2014/km2-2418.jpg</frameUrl>
+      <trailer>http://www.youtube.com/watch?v=mIao_0ObIfk</trailer>
+      <director>Масаюки Отиай</director>
+      <cast>Шо Аояги, Ёсихико Хакамада, Ясухито Хида, Михо Каназава, Кай Кобаяси</cast>
+      <schedule>
+        <session id="882468" time="17:40" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882468</plan>
+          <hall><![CDATA[Зал 2]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+        <session id="882470" time="22:00" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882470</plan>
+          <hall><![CDATA[Зал 2]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+        <session id="882471" time="00:00" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882471</plan>
+          <hall><![CDATA[Зал 2]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+      </schedule>
+    </movie>
+    <movie id="2419">
+      <name>Отель «Мэриголд». Заселение продолжается</name>
+      <length>122</length>
+      <description><![CDATA[Отель «Мэриголд» не был бы экзотическим, если бы не поселил двух незнакомых друг с другом людей в один номер; и он не стал бы лучшим, если бы из этого не произошло ничего хорошего.]]></description>
+      <genres>Драма, Комедия</genres>
+      <rating votes="6">4.33</rating>
+      <frameUrl>http://kinomax.ru/data/films/2015/km2-2419.jpg</frameUrl>
+      <trailer>http://www.youtube.com/watch?v=62GVH2b3S_Y</trailer>
+      <director>Джон Мэдден</director>
+      <cast>Мэгги Смит, Ричард Гир, Билл Найи, Джуди Денч, Дев Патель</cast>
+      <schedule>
+        <session id="875758" time="12:15" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=875758</plan>
+          <hall><![CDATA[Зал 1]]></hall>
+          <priceRange>от 108р.</priceRange>
+        </session>
+        <session id="882467" time="15:10" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882467</plan>
+          <hall><![CDATA[Зал 2]]></hall>
+          <priceRange>от 180р.</priceRange>
+        </session>
+        <session id="882464" time="19:20" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=882464</plan>
+          <hall><![CDATA[Зал 1]]></hall>
+          <priceRange>от 225р.</priceRange>
+        </session>
+      </schedule>
+    </movie>
+    <movie id="2412">
+      <name>Снайпер</name>
+      <length>132</length>
+      <description><![CDATA[Экранизация мемуаров «морского котика» из Техаса Криса Кайла, который служил снайпером в Ираке и стал рекордсменом по числу убитых солдат противника, за что иракцы прозвали его дьяволом. Кроме самой войны, фильм рассказывает о воспоминаниях жены Криса, которая была свидетелем растущей привязанности мужа к его сослуживцам.]]></description>
+      <genres>Боевик, Драма, Военный, Биография</genres>
+      <rating votes="70">4.00</rating>
+      <frameUrl>http://kinomax.ru/data/films/2014/km2-2412.jpg</frameUrl>
+      <trailer>http://www.youtube.com/watch?v=p1xq7eas-mw</trailer>
+      <director>Клинт Иствуд</director>
+      <cast>Брэдли Купер, Сиенна Миллер, Кайл Галлнер, Коул Конис, Бен Рид</cast>
+      <schedule>
+        <session id="875764" time="12:30" passed="true">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=875764</plan>
+          <hall><![CDATA[Зал 2]]></hall>
+          <priceRange>от 108р.</priceRange>
         </session>
       </schedule>
     </movie>
