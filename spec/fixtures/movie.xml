@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+  <result>ok</result>
+  <message/>
+  <cinema id="4" token="vladimir">Киномакс-Буревестник Владимир</cinema>
+  <city id="3">Владимир</city>
+  <cityDatetime timezone="Europe/Moscow">2015-01-27 01:11:23</cityDatetime>
+  <scheduleForDate>2015-01-27</scheduleForDate>
+  <movies>
+    <movie id="2379">
+      <name>Тупой и еще тупее 2</name>
+      <length>108</length>
+      <description><![CDATA[Гарри Данн и Ллойд Кристмас отправляются в путешествие, чтобы разыскать ребенка Гарри, о существовании которого он не подозревал.]]></description>
+      <genres>Комедия</genres>
+      <rating votes="90">3.86</rating>
+      <frameUrl>http://kinomax.ru/data/films/2014/km2-2379.jpg</frameUrl>
+      <trailer>http://www.youtube.com/watch?v=zGeEFklw108</trailer>
+      <director>Питер Фаррелли, Бобби Фаррелли</director>
+      <cast>Джим Керри, Джефф Дэниелс, Роб Риггл, Лори Холден, Рэйчел Мелвин</cast>
+      <schedule>
+        <session id="815911" time="10:20" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=815911</plan>
+          <hall><![CDATA[САТУРН]]></hall>
+          <priceRange>от 130р.</priceRange>
+        </session>
+        <session id="815919" time="13:20" passed="false">
+          <type id="2d">2D</type>
+          <plan>http://kinomax.ru/order/hallplan?session=815919</plan>
+          <hall><![CDATA[Зал 1]]></hall>
+          <priceRange>от 130р.</priceRange>
+        </session>
+      </schedule>
+    </movie>
+  </movies>
+</response>
