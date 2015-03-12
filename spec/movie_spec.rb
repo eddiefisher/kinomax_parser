@@ -2,7 +2,8 @@ require 'spec_helper'
 
 describe KinomaxParser::Movie do
   let(:default) { KinomaxParser::Announce.new test: true }
-  let(:movie) { default.movies.first }
+  # let!(:default) { KinomaxParser::Announce.new cinema: :vladimir }
+  let!(:movie) { default.movies.first }
   let!(:data) {
     {
       id: 2409,
@@ -15,7 +16,17 @@ describe KinomaxParser::Movie do
       poster: 'http://kinomax.ru/data/films/2015/km2-2409.jpg',
       trailer: 'http://www.youtube.com/watch?v=nynI4BoCdeA',
       director: 'Кеннет Брана',
-      cast: 'Лили Джеймс, Кейт Бланшетт, Ричард Мэдден, Хейли Этвелл, Хелена Бонем Картер'
+      cast: 'Лили Джеймс, Кейт Бланшетт, Ричард Мэдден, Хейли Этвелл, Хелена Бонем Картер',
+      schedules: [
+        { session_id: 875757, time: "10:00", passed: "true", type: "2D", plan: "http://kinomax.ru/order/hallplan?session=875757", hall: "Зал 1", price: "от 108р." },
+        { session_id: 875770, time: "11:10", passed: "true", type: "2D", plan: "http://kinomax.ru/order/hallplan?session=875770", hall: "Зал 4", price: "от 108р." },
+        { session_id: 882473, time: "12:45", passed: "true", type: "2D", plan: "http://kinomax.ru/order/hallplan?session=882473", hall: "Зал 3", price: "от 108р." },
+        { session_id: 882462, time: "14:40", passed: "true", type: "2D", plan: "http://kinomax.ru/order/hallplan?session=882462", hall: "Зал 1", price: "от 180р." },
+        { session_id: 882478, time: "15:50", passed: "true", type: "2D", plan: "http://kinomax.ru/order/hallplan?session=882478", hall: "Зал 4", price: "от 180р." },
+        { session_id: 875773, time: "18:10", passed: "false", type: "2D", plan: "http://kinomax.ru/order/hallplan?session=875773", hall: "Зал 4", price: "от 225р." },
+        { session_id: 875774, time: "20:30", passed: "false", type: "2D", plan: "http://kinomax.ru/order/hallplan?session=875774", hall: "Зал 4", price: "от 225р." },
+        { session_id: 882465, time: "21:50", passed: "false", type: "2D", plan: "http://kinomax.ru/order/hallplan?session=882465", hall: "Зал 1", price: "от 225р." }
+      ]
     }
   }
 
@@ -30,4 +41,5 @@ describe KinomaxParser::Movie do
   it { expect(movie.trailer).to eq(data[:trailer]) }
   it { expect(movie.director).to eq(data[:director]) }
   it { expect(movie.cast).to eq(data[:cast]) }
+  it { expect(movie.schedules).to eq(data[:schedules]) }
 end

@@ -51,6 +51,17 @@ module KinomaxParser
     end
 
     def schedules
+      @doc.css('schedule session').map do |schedule|
+        {
+          session_id: schedule.attribute('id').text.to_i,
+          time: schedule.attribute('time').text,
+          passed: schedule.attribute('passed').text,
+          type: schedule.at_css('type').text,
+          plan: schedule.at_css('plan').text,
+          hall: schedule.at_css('hall').text,
+          price: schedule.at_css('priceRange').text
+        }
+      end
     end
   end
 end
