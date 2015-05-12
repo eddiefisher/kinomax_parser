@@ -4,8 +4,7 @@
 
 ## Installation
 
-For using this gem you need to get access:
-read more about access ( http://kinomax.ru/articles/widget.htm )
+For using this gem you need to get access: http://kinomax.ru/articles/widget.htm
 
 Add this line to your application's Gemfile:
 

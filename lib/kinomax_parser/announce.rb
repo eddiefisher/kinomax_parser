@@ -3,10 +3,10 @@ require "date"
 
 module KinomaxParser
   class Announce
-    attr_accessor :doc, :url
+    attr_accessor :doc, :url, :date
 
     def initialize(attributes = {})
-      date = Date.parse(attributes[:date]).to_s unless attributes[:date].nil?
+      @date = Date.parse(attributes[:date]).to_s unless attributes[:date].nil?
       params = { cinema: attributes[:cinema], date: date }.compact
       @url = "http://kinomax.ru/export/schedule?#{URI.encode_www_form(params)}"
       @doc = Nokogiri::XML(File.open('./spec/fixtures/announce.xml')) if attributes[:test] == true
